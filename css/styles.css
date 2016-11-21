@@ -1,0 +1,374 @@
+/*****************
+General Styles
+*****************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fafafa;
+}
+
+header {
+	margin-right: 1em;
+	margin-left: 1em;
+	
+}
+
+section {
+	margin-right: 1em;
+	margin-left: 1em;
+	padding-bottom: 10px;
+}
+
+footer {
+	margin-right: 1em;
+	margin-left: 1em;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+footer h2 a {
+	text-decoration: none;
+}
+
+.heading {
+	background: #fafafa;
+}
+
+.footer {
+	background: #fafafa;
+}
+
+.section {
+	background: white;
+}
+
+p {
+	color: #7f7f7f;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.student-name {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;				
+}
+
+a {
+	color: #4a4a4a;
+}
+
+h1 {
+	color: #4a4a4a;
+	text-align: center;
+}
+
+h2 {
+	color: #4a4a4a;
+	text-align: center;
+}
+
+h3 {
+	color: #4a4a4a;
+	text-align: center;
+	font-weight: normal;
+}
+
+
+/*****************
+Navigation
+*****************/
+
+
+.site-navigation a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+
+.site-navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-navigation li {
+	display: block;
+	background: white;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.bottom-nav {
+	display: none;
+}
+
+
+/*****************
+Content Styles
+*****************/
+
+.profile img {
+	width: 75%;
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile p {
+	margin-bottom: 40px;
+}
+
+.footer-name {
+	display: block;
+	float: left;
+	font-size: 1em;
+}
+
+.top-link {
+	display: block;
+	float: right;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+#contact-section {
+	border-bottom: 1px solid lightgrey;
+	margin-right: 1em;
+	margin-left: 1em;
+	padding-bottom: 50px;
+}
+
+#contact-section h2 {
+	font-size: .90em;
+	text-transform: uppercase;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+#contact-section a {
+	margin-left: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #4a4a4a;
+}
+
+.portfolio {
+	margin-bottom: 40px;
+}
+
+.portfolio img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#portfolio-section {
+	margin-bottom: 70px;
+}
+
+#portfolio-section h2 {
+	text-transform: uppercase;
+	font-size: .90em;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+
+
+/*****************
+Clearfix
+*****************/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*****************
+Media Queries
+*****************/
+
+@media (min-width: 768px) {
+
+	.profile p {
+		display: block;
+		float: left;
+		width: 60%;
+		margin-top: 40px;
+		padding-left: .5em;
+		padding-right: .5em;
+		text-align: left;
+	}
+
+	.profile img {
+		display: block;
+		float: right;
+		width: 40%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		padding-left: .5em;
+		padding-right: 0;
+	}
+	
+
+	.portfolio {
+		float: left;	
+		width: 50%;
+		padding-right: .5em;
+		padding-left: .5em;
+		
+	}
+
+	.site-navigation ul {
+		text-align: center;
+	}
+
+	.site-navigation li {
+	display: inline-block;
+	margin-left: 30px;
+	background: inherit;
+	}
+
+	.site-navigation a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4a4a4a;
+	}
+
+	.top-link {
+		display: none;
+	}
+
+	.bottom-nav {
+		display: block;
+		float: right;
+	}
+
+	.bottom-nav ul {
+		display: block;
+		float: right;
+	}
+
+	.bottom-nav li {
+	display: inline-block;
+	margin-left: 30px;
+	background: inherit;
+	}
+
+	.bottom-nav a {
+	display: block;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4a4a4a;
+	font-size: 1em;
+	}
+	
+	#contact-section .contact-p {
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-bottom: 30px;
+	}
+
+
+}
+
+
+
+@media (min-width: 1024px) {
+	
+	.portfolio {
+		float: left;	
+		width: 33.3333%;
+		padding-right: .5em;
+		padding-left: .5em;
+		
+	}
+
+	header {
+		margin-right: 2em;
+		margin-left: 2em;
+		
+	}
+
+	section {
+		margin-right: 2em;
+		margin-left: 2em;
+		padding-bottom: 10px;
+	}
+
+	footer {
+		margin-right: 2em;
+		margin-left: 2em;
+		padding-top: 20px;
+		padding-bottom: 20px;	
+	}
+
+	#contact-section {
+		border-bottom: 1px solid lightgrey;
+		margin-right: 2em;
+		margin-left: 2em;
+		padding-bottom: 50px;
+	}
+
+
+	.section {
+		background: white;
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+
+	.site-navigation a {
+		padding-top: 0;
+	}
+
+	.site-navigation ul {
+		float: right;
+		margin-top: 30px;
+
+	}
+
+	.student-name {
+		display: block;
+		float: left;
+		margin-top: 30px;
+		padding-top: 0;
+	}
+
+	.contact-section {
+		display: block;
+		width: 50%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
